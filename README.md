@@ -19,5 +19,5 @@ For the sequencing error analysis, found in **Thesis_EA_Github.ipynb**, the thre
 For encoding/decoding analysis, found in **Thesis_Encodings_Github.ipynb**, the main functions are *sequence_analysis*, which analyses the composition of the sequence, *error_simulator* or *error_simulator_multiple*, which simulates errors in a sequence or number of sequences.
 
 Important note: In error simulator, the error rates are ordered as transition, transversion, insertion, deletion.
-If using gc weights, it should be a dictionary e.g {0.05: [0.1,0.1,0.2,0.2], 0.07: [0.5,0.5,0.1,0.1]). If a specific GC is not in that discitonary, the flat error rate will be used.
+If using gc weights, it should be a dictionary e.g {0.05: [0.1,0.1,0.2,0.2], 0.07: [0.5,0.5,0.1,0.1]). If a specific GC is not in that dictionary, the flat error rate will be used.
 GC weight is optional.
