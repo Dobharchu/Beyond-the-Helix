@@ -12,6 +12,9 @@ Repository as part of UCC's MSc Bioinformatics and Computational Biology
 **Run Accessions.xlsx** contains all the run accessions from the European Nucleotide Archive (ENA). These are all the runs/data sets that were used in the final project. Keep in mind that some runs found in Raw CSV Results were not used in the final project, only this file shows what has been used.
 
 ## Using the code
+
+The Numpy and Pandas packages are required to run the python files. Tidyverse and ggplot2 packages are required to run the .rmd file. 
+
 Before running the entirety of the python notebook files, keep in mind examples are still left in, of which the files are not included, but can be accquired from the ENA. 
 
 For the sequencing error analysis, found in **Thesis_EA_Github.ipynb**, the three main functions are *avg_qscore_analysis*, *indel_substitution_analysis* and *homopolymer_length_analysis*. Examples of how these were used are also present in the file.
